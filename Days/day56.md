@@ -46,7 +46,7 @@ This is where Infrastructure as Code comes in, the above was very much a time wh
 
 With Infrastructure as Code we have the ability to automate all these tasks end to end. Infrastructure as code is a concept and there are tools that carry out this automated provisioning of infrastructure, at this point if something bad happens to a server you throw it away and you spin up a new one. This process is automated and the server is exactly as defined in code. At this point we don't care what they are called they are there in the field serving their purpose until they are no longer in the field and we have another to replace it either because of a failure or because we updated part or all of our application. 
 
-This can be used in almost all platforms, virtualisation, cloud based workloads and also cloud-native infrastructure such as Kubernetes and containers. 
+This can be used in almost all platforms, virtualization, cloud based workloads and also cloud-native infrastructure such as Kubernetes and containers. 
 
 ### Infrastructure Provisioning 
 Not all IaC cover all of the below, You will find that the tool we are going to be using during this section only really covers the the first 2 areas of below; Terraform is that tool we will be covering and this allows us to start from nothing and define in code what our infrastructure should look like and then deploy that, it will also enable us to manage that infrastructure and also initially deploy an application but at that point it is going to lose track of the application which is where the next section comes in and something like Ansible as a configuration management tool might work better on that front. 
@@ -80,7 +80,7 @@ Procedural
 - Step by step instruction 
 - Create a server > Add a server > Make this change 
 
-Declartive 
+Declarative 
 - declare end result 
 - 2 Servers 
 
